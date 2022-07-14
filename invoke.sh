@@ -13,3 +13,7 @@ aws lambda create-function --function-name "lambda-function name" --role "Insert
 
 #Adding a function URL to existing function
 aws lambda create-function-url-config --function-name "function name" --auth-type "NONE"
+
+
+#Cleanup/delete function
+aws lambda delete-function --function-name "function name"
